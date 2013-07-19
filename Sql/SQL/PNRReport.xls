@@ -1,0 +1,87 @@
+
+                            <table style="table-layout: fixed; width: 50%;">
+                                <tr style="font-weight: bold;">
+                                    <td width="100" colspan="6">
+                                        
+                                    </td>
+                                </tr>
+                                <tr style="font-weight: bold; font-size: large;">
+                                    <td valign="bottom" colspan="6" align="center">
+                                        Export PNR for Checking Airline Seat
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="5">
+                                    </td>
+                                    <td style="mso-number-format: '\@';">
+                                        Printed Date:
+                                        01/06/09
+                                    </td>
+                                </tr>
+                            </table>
+                            <table style="table-layout: fixed; width: 50%;">
+                                <tr style="background-color: Gray; font-weight: bold;">
+                                    <td width="100">
+                                        PNR No.
+                                    </td>
+                                    <td width="100">
+                                        Destination
+                                    </td>
+                                    <td width="100">
+                                        Depature Date
+                                    </td>
+                                    <td width="100">
+                                        Total No. of PAX
+                                    </td>
+                                    <td width="100">
+                                        Airline Code
+                                    </td>
+                                    <td width="100">
+                                        Airline PNR
+                                    </td>
+                                </tr>
+                        
+                            <tr>
+                                <td style="mso-number-format: '\@';">
+                                    BBAAUK
+                                </td>
+                                <td style="mso-number-format: '\@';">
+                                    ICN
+                                </td>
+                                <td style="mso-number-format: '\@';">
+                                    2009-06-14
+                                </td>
+                                <td style="mso-number-format: '\@';">
+                                    1
+                                </td>
+                                <td style="mso-number-format: '\@';">
+                                    OZ
+                                </td>
+                                <td style="mso-number-format: '\@';">
+                                    CCCGUT
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td style="mso-number-format: '\@';">
+                                    BDIHKT
+                                </td>
+                                <td style="mso-number-format: '\@';">
+                                    HGH
+                                </td>
+                                <td style="mso-number-format: '\@';">
+                                    2009-06-07
+                                </td>
+                                <td style="mso-number-format: '\@';">
+                                    1
+                                </td>
+                                <td style="mso-number-format: '\@';">
+                                    UO
+                                </td>
+                                <td style="mso-number-format: '\@';">
+                                    EK712
+                                </td>
+                            </tr>
+                        
+                            </table>
+                        

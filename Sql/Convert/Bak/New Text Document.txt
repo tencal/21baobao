@@ -1,0 +1,5 @@
+1.  delete from BO_UserInGroups 放在最上
+2.  新加delete from Gen_PromotionPrice 并放  delete from Gen_RoomItem 之前
+3.  新加delete Gen_FreeEnquires并放   delete from Gen_markets   之前
+4.  Alter表Gen_RoomItem 新增字段EffectivDate,ExpiryDate为PK且Not Null，但Insert 时并未赋值
+5.  Alter表Gen_RoomItemHistory新增字段EffectivDate,ExpiryDate为PK且Not Null，但Insert 时并未赋值

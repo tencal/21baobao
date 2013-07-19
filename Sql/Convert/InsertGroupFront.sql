@@ -1,0 +1,68 @@
+--use TExpert_User
+
+--insert into BO_UserInGroups(UserID,GroupID)
+--select distinct UserID,'200907081740436715'  from BO_UserInGroups AA
+--where (not exists(select * from BO_UserInGroups BB where BB.UserID=AA.UserID and BB.GroupID='200907081740436715')) 
+--	and  GroupID in 
+--(
+----1.找2级群组  最后加上第一级的记录
+--select GroupID from BO_Groups where ParentID in (
+--select GroupID from BO_Groups where ParentID in(
+--select GroupID  from BO_Groups where GroupName in('Tsim Sha Tsui Branch','Whampoa Branch',
+--'Lai Chi Kok Branch','East Tsimshatsui Branch','Olympian City Branch','Kowloon MTR Station Branch',
+--'Tsing Yi Branch','Tuen Mun Branch','Luk Yeung Galleria Branch','Belvedere Garden Branch',
+--'Yuen Long Branch','Queen''s Road Branch','Vicwood Branch','Central MTR Station Branch',
+--'Chiu Lung Branch','Admiralty Branch','Wan Chai Branch','Seymour Road Branch','Bonham Road Branch',
+--'Aberdeen Centre Branch','Wan Chai - Tak Wah Branch','Kowloon Bay Branch','Kwun Tong Branch',
+--'Tseung Kwan O Branch','Hang Hau Branch','Kowloon Tong Branch','Ma On Shan Branch','Shatin Branch',
+--'Lee Garden Branch','Quarry Bay Branch','Hang Lung Branch','Chai Wan Branch','Fortress Hill Branch',
+--'','Taikoo Shing Branch')) 
+--) or 
+--ParentID in(
+--select GroupID  from BO_Groups where GroupName in('Tsim Sha Tsui Branch','Whampoa Branch',
+--'Lai Chi Kok Branch','East Tsimshatsui Branch','Olympian City Branch','Kowloon MTR Station Branch',
+--'Tsing Yi Branch','Tuen Mun Branch','Luk Yeung Galleria Branch','Belvedere Garden Branch',
+--'Yuen Long Branch','Queen''s Road Branch','Vicwood Branch','Central MTR Station Branch',
+--'Chiu Lung Branch','Admiralty Branch','Wan Chai Branch','Seymour Road Branch','Bonham Road Branch',
+--'Aberdeen Centre Branch','Wan Chai - Tak Wah Branch','Kowloon Bay Branch','Kwun Tong Branch',
+--'Tseung Kwan O Branch','Hang Hau Branch','Kowloon Tong Branch','Ma On Shan Branch','Shatin Branch',
+--'Lee Garden Branch','Quarry Bay Branch','Hang Lung Branch','Chai Wan Branch','Fortress Hill Branch',
+--'','Taikoo Shing Branch')
+--)
+--union
+----2.找3级群组Mongkok Branch ,Corporate Section 
+--select GroupID from BO_Groups where ParentID in(
+--select GroupID from BO_Groups where ParentID in(
+--select GroupID from BO_Groups where ParentID in(
+--select GroupID  from BO_Groups where GroupName in('Mongkok Branch','Corporate Section'))))
+--or ParentID in(select GroupID  from BO_Groups where GroupName in('Mongkok Branch','Corporate Section'))
+--or ParentID in(select GroupID from BO_Groups where ParentID in(
+--select GroupID  from BO_Groups where GroupName in('Mongkok Branch','Corporate Section')))
+
+--union 
+----3.找4级群组 Mei Foo Branch
+--(
+--select  GroupID from BO_Groups where ParentID =(
+--select GroupID from BO_Groups where ParentID =(
+--select GroupID from BO_Groups where GroupName ='Mei Foo Branch'))
+--or ParentID=(select GroupID from BO_Groups where GroupName ='Mei Foo Branch')
+--or ParentID=(select GroupID from BO_Groups where ParentID =(
+--select GroupID from BO_Groups where GroupName ='Mei Foo Branch'))
+--union 
+--select  GroupID from BO_Groups where ParentID in( 
+--select GroupID from BO_Groups where ParentID =(
+--select GroupID  from BO_Groups where GroupName ='Gloucester Branch'))
+--or ParentID=(select GroupID  from BO_Groups where GroupName ='Gloucester Branch')
+--)
+--union
+----4.找4级群组Central Head Office
+--(select GroupID from BO_Groups where ParentID =(
+--select GroupID from BO_Groups where ParentID =(
+--select GroupID  from BO_Groups where GroupName ='Central Head Office'))
+--or ParentID =(select GroupID  from BO_Groups where GroupName ='Central Head Office')
+--union 
+--select GroupID from BO_Groups where ParentID =(
+--select GroupID from BO_Groups where ParentID  =(
+--select GroupID  from BO_Groups where GroupName ='Account Manager' and ParentID='392'))
+--)
+--)
