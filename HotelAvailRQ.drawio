@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-18T06:54:12.814Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36" etag="ZSDJHYMimQ-98MvzYcBD" version="14.1.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-18T06:59:14.544Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36" etag="AmKVrWu9-m2j9nPtvjwi" version="14.1.9" type="github">
   <diagram id="cWu59uhgyuvTrXofNNeC" name="Page-1">
     <mxGraphModel dx="920" dy="868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="-Mwwxeq795hldmn_Ijv5-1" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#457B9D;fillColor=#A8DADC;fontColor=#1D3557;" edge="1" parent="1" source="-Mwwxeq795hldmn_Ijv5-2" target="-Mwwxeq795hldmn_Ijv5-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-Mwwxeq795hldmn_Ijv5-2" value="发起CancelRQ" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;strokeColor=#457B9D;fillColor=#A8DADC;fontColor=#1D3557;" vertex="1" parent="1">
+        <mxCell id="-Mwwxeq795hldmn_Ijv5-2" value="发起HotelAvailRQ" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;strokeColor=#457B9D;fillColor=#A8DADC;fontColor=#1D3557;" vertex="1" parent="1">
           <mxGeometry x="30" y="10" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-Mwwxeq795hldmn_Ijv5-3" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#457B9D;fillColor=#A8DADC;fontColor=#1D3557;" edge="1" parent="1" source="-Mwwxeq795hldmn_Ijv5-5" target="-Mwwxeq795hldmn_Ijv5-9">
