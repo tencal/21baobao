@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-18T03:04:37.942Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36" etag="mm2xUO2C00vHlH4Cv7oe" version="14.1.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-18T03:50:59.557Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36" etag="xIh4aozIZrAMKCm2I71m" version="14.1.9" type="github">
   <diagram id="cWu59uhgyuvTrXofNNeC" name="Page-1">
     <mxGraphModel dx="782" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
@@ -21,7 +21,7 @@
         <mxCell id="-Mwwxeq795hldmn_Ijv5-5" value="判断有效的&lt;br&gt;用户名和密码?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;sketch=0;strokeColor=#457B9D;fillColor=#A8DADC;fontColor=#1D3557;" vertex="1" parent="1">
           <mxGeometry x="30" y="110" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="-Mwwxeq795hldmn_Ijv5-6" value="Cancel 失败" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;strokeColor=#457B9D;fillColor=#A8DADC;fontColor=#1D3557;" vertex="1" parent="1">
+        <mxCell id="-Mwwxeq795hldmn_Ijv5-6" value="请求结束,&lt;br&gt;返回错误信息" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;strokeColor=#457B9D;fillColor=#A8DADC;fontColor=#1D3557;" vertex="1" parent="1">
           <mxGeometry x="214" y="120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-Mwwxeq795hldmn_Ijv5-7" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#457B9D;fillColor=#A8DADC;fontColor=#1D3557;" edge="1" parent="1" source="-Mwwxeq795hldmn_Ijv5-9" target="-Mwwxeq795hldmn_Ijv5-11">
@@ -30,7 +30,7 @@
         <mxCell id="-Mwwxeq795hldmn_Ijv5-8" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#457B9D;fillColor=#A8DADC;fontColor=#1D3557;" edge="1" parent="1" source="-Mwwxeq795hldmn_Ijv5-9" target="-Mwwxeq795hldmn_Ijv5-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-Mwwxeq795hldmn_Ijv5-9" value="检查订单是否存在" style="rhombus;whiteSpace=wrap;html=1;rounded=0;sketch=0;strokeColor=#457B9D;fillColor=#A8DADC;fontColor=#1D3557;" vertex="1" parent="1">
+        <mxCell id="-Mwwxeq795hldmn_Ijv5-9" value="国家和城市代码是否正确" style="rhombus;whiteSpace=wrap;html=1;rounded=0;sketch=0;strokeColor=#457B9D;fillColor=#A8DADC;fontColor=#1D3557;" vertex="1" parent="1">
           <mxGeometry x="30" y="240" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-Mwwxeq795hldmn_Ijv5-10" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#457B9D;fillColor=#A8DADC;fontColor=#1D3557;" edge="1" parent="1" source="-Mwwxeq795hldmn_Ijv5-11" target="-Mwwxeq795hldmn_Ijv5-13">
